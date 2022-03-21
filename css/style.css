@@ -9,7 +9,7 @@
 
 /* aaqui começa o estilo a sessao banner */
 section.banner{
-    background: url(../assets/images/carros_avenida.png);
+    background: url(../assets/imagens/carros_avenida.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
