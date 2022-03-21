@@ -122,6 +122,10 @@ section.banner div.container div.image-1 img{
 
 }
 
+
+
+
+
 /* aqui começa o estilo da sessao-2 */
 section.sessao-2{
     background:#E12C30;
@@ -143,8 +147,7 @@ section.sessao-2 div.container div.row > :nth-child(2) input[type=submit]{
     background: linear-gradient(90deg, #12D01A 17.21%, #12D01A 78.69%);
     border-radius: 50px;
     width: 100%;
-    padding: 7px;
-    font-size: 20px;
+    padding:10px 0;
 }
 
 @media screen and (max-width:568px){
@@ -154,14 +157,17 @@ section.sessao-2 div.container div.row > :nth-child(2) input[type=submit]{
     }
     section.sessao-2 div.container div.row > :nth-child(2) input[type=submit]{
     text-align: center;
-    padding: 7px 120px;
+    
     }
 }
 
 
+
+
+
 /* estilo da sessao-3 */
 section.sessao-3 div.container div.row > div > div.box{
-    width: 105%;
+    width: 100%;
     height: 43%;
     padding: 10px;
 }
@@ -181,14 +187,14 @@ section.sessao-3 div.container div.row > div > div.box > p{
 @media screen and (max-width:992px){
     section.sessao-3 div.container div.row > div > div.box{
         width: 115%;
-        height: 40%;
+        /* height: 40%; */
         font-size: 80%;
     }
 }
 @media screen and (max-width:768px){
     section.sessao-3 div.container div.row > div > div.box{
         width: 100%;
-        height: 44%;
+        /* height: 44%; */
        font-size: 132%;
     }
     section.sessao-3 div.container div.row div.coluna-2{
@@ -206,8 +212,8 @@ section.sessao-3 div.container div.row > div > div.box > p{
         margin-left: 0px;
     }
     section.sessao-3 div.container div.row > div > div.box > div{
-        width: 40%;
-        max-height: 40%;
+        width: 100%;
+        /* max-height: 40%; */
         margin: 0 auto;
     }
     section.sessao-3 div.container div.row > div > div.box > p{
@@ -238,13 +244,18 @@ section.sessao-3 div.container div.row > div > div.box > p{
 
 /* estilo da sessao-5 aqui */
 section.sessao-5 div.container-lg div.row > div > p{
-    font-size: 23px; padding-right: 20px;text-align: justify;
+    font-size: 28px; padding-right: 20px;text-align: justify;
 }
 
 /* aqui sao as @media screen da sessao-5 */
+@media screen and (max-width:1200px){
+    section.sessao-5 div.container-lg div.row > div p{
+        font-size: 23.5px;
+    }
+}
 @media screen and (max-width:992px){
     section.sessao-5 div.container-lg div.row > div p{
-        font-size: 18.5px;
+        font-size: 18.2px;
     }
 }
 @media screen and (max-width:768px){
@@ -257,12 +268,18 @@ section.sessao-5 div.container-lg div.row > div > p{
 
 /* estilo da sessao-5 aqui */
 section.sessao-6 div.container-lg div.row > div > p{
-    font-size: 23px;text-align: justify;
+    font-size: 27.6px;text-align: justify;
 }
 section.sessao-6 div.container-lg  h1{
     font-size: 27px;
 }
 /* aqui sao as @media screen da sessao-5 */
+@media screen and (max-width:1200px){
+    section.sessao-6 div.container-lg div.row > div p{
+        font-size: 23px;
+        padding-right: 0;
+    }
+}
 @media screen and (max-width:992px){
     section.sessao-6 div.container-lg div.row > div p{
         font-size: 18.5px;
